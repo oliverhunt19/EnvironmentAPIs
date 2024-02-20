@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoordinateSharp" Version="2.21.1.1" />
+    <PackageReference Include="GeoJSON.Net" Version="1.2.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoutePlanning\RoutePlanning.csproj" />
+    <ProjectReference Include="..\Submodules\HttpWebAPICore\HttpWebAPICore\HttpWebAPICore\HttpWebAPICore.csproj" />
+  </ItemGroup>
+
+</Project>
