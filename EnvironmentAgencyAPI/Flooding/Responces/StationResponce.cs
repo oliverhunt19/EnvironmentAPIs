@@ -1,6 +1,6 @@
 ﻿using EnvironmentAgencyAPI.Flooding.Requests;
 using EnvironmentAgencyAPI.Flooding.ReturnTypes;
-using HttpWebAPICore;
+using HttpWebAPICore.BaseClasses;
 using System.Text.Json.Serialization;
 
 namespace EnvironmentAgencyAPI.Flooding.Responces

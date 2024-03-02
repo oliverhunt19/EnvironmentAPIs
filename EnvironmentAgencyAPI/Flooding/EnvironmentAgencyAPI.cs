@@ -1,7 +1,7 @@
 ﻿using EnvironmentAgencyAPI.Flooding.Requests;
 using EnvironmentAgencyAPI.Flooding.Requests.ReadingRequest;
 using EnvironmentAgencyAPI.Flooding.Responces;
-using HttpWebAPICore;
+using HttpWebAPICore.BaseClasses;
 
 namespace EnvironmentAgencyAPI.Flooding
 {
@@ -10,7 +10,7 @@ namespace EnvironmentAgencyAPI.Flooding
     /// </summary>
     public class EnvironmentAgencyAPI
     {
-        public static readonly StationAPI StationAPi = new();
+        public static readonly StationAPI StationApi = new();
 
         public static readonly StationsAPI StationsAPi = new();
 

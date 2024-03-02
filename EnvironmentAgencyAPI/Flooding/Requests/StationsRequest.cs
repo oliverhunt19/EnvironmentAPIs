@@ -2,7 +2,7 @@
 using EnvironmentAgencyAPI;
 using EnvironmentAgencyAPI.Enums;
 using EnvironmentAgencyAPI.Flooding;
-using HttpWebAPICore;
+using HttpWebAPICore.Utilities;
 
 namespace EnvironmentAgencyAPI.Flooding.Requests
 {

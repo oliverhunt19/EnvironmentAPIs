@@ -1,5 +1,5 @@
 ﻿using EnvironmentAgencyAPI.Hydrology.Requests;
-using HttpWebAPICore;
+using HttpWebAPICore.BaseClasses;
 using System.Text.Json.Serialization;
 
 namespace EnvironmentAgencyAPI.Hydrology.Responces

@@ -1,4 +1,4 @@
-﻿using HttpWebAPICore;
+﻿using HttpWebAPICore.BaseClasses;
 
 namespace EnvironmentAgencyAPI.Hydrology
 {

@@ -1,7 +1,7 @@
 ﻿using EnvironmentAgencyAPI;
 using EnvironmentAgencyAPI.Enums;
 using EnvironmentAgencyAPI.Flooding;
-using HttpWebAPICore;
+using HttpWebAPICore.Utilities;
 using System.Runtime.Serialization;
 
 namespace EnvironmentAgencyAPI.Flooding.Requests

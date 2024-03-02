@@ -1,6 +1,6 @@
 ﻿using EnvironmentAgencyAPI;
 using EnvironmentAgencyAPI.Enums;
-using HttpWebAPICore;
+using HttpWebAPICore.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

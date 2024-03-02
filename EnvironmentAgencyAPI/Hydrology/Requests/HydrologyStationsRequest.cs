@@ -1,4 +1,5 @@
 ﻿using HttpWebAPICore;
+using HttpWebAPICore.Utilities;
 
 namespace EnvironmentAgencyAPI.Hydrology.Requests
 {

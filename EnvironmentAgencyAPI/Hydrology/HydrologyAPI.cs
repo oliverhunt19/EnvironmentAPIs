@@ -1,6 +1,6 @@
 ﻿using EnvironmentAgencyAPI.Hydrology.Requests;
 using EnvironmentAgencyAPI.Hydrology.Responces;
-using HttpWebAPICore;
+using HttpWebAPICore.BaseClasses;
 
 namespace EnvironmentAgencyAPI.Hydrology
 {

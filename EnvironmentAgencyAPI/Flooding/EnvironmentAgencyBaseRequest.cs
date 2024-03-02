@@ -1,4 +1,5 @@
-﻿using HttpWebAPICore;
+﻿using HttpWebAPICore.BaseClasses;
+using HttpWebAPICore.Utilities;
 
 namespace EnvironmentAgencyAPI.Flooding
 {
