@@ -41,8 +41,8 @@ namespace EnvironmentAgencyAPI.Flooding.Requests
             if (CoordinateAndRadius != null)
             {
                 var coordinateAndRadius = CoordinateAndRadius.Value;
-                parameters.Add("lat", coordinateAndRadius.Centre.Lat.DecimalDegrees.ToString());
-                parameters.Add("long", coordinateAndRadius.Centre.Lng.DecimalDegrees.ToString());
+                parameters.Add("lat", coordinateAndRadius.Centre.Lat.Degrees.ToString());
+                parameters.Add("long", coordinateAndRadius.Centre.Lng.Degrees.ToString());
                 parameters.Add("dist", coordinateAndRadius.Radius.Kilometers.ToString());
             }
             return parameters;
