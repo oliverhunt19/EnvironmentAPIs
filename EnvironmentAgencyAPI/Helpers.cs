@@ -6,8 +6,8 @@ namespace EnvironmentAgencyAPI
     {
         public static void AddCentreAndRadius(this CoordinateAndRadius coordinateAndRadius, IList<KeyValuePair<string, string?>> parameters)
         {
-            parameters.Add("lat", coordinateAndRadius.Centre.Lat.DecimalDegrees.ToString());
-            parameters.Add("long", coordinateAndRadius.Centre.Lng.DecimalDegrees.ToString());
+            parameters.Add("lat", coordinateAndRadius.Centre.Lat.Degrees.ToString());
+            parameters.Add("long", coordinateAndRadius.Centre.Lng.Degrees.ToString());
             parameters.Add("dist", coordinateAndRadius.Radius.Kilometers.ToString());
         }
     }
