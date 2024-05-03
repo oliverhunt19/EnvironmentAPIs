@@ -11,9 +11,20 @@
     <PackageReference Include="GeoJSON.Net" Version="1.2.19" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\CoreNavigation\RoutePlanning\RoutePlanning.csproj" />
-    <ProjectReference Include="..\..\HttpWebAPICore\HttpWebAPICore\HttpWebAPICore\HttpWebAPICore.csproj" />
-  </ItemGroup>
+  
+
+	<Choose>
+		<When Condition="'$(Configuration)' == 'Develop_Debug'">
+			<ItemGroup>
+				<ProjectReference Include="..\..\CoreNavigation\RoutePlanning\RoutePlanning.csproj" />
+				<ProjectReference Include="..\..\HttpWebAPICore\HttpWebAPICore\HttpWebAPICore.csproj" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<ItemGroup>
+
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
 
 </Project>
