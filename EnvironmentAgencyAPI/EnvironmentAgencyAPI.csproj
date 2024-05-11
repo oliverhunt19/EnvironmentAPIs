@@ -4,16 +4,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <Configurations>Debug;Release;Develop_Debug</Configurations>
+    <Configurations>Debug;Release;Develop_Debug</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="GeoJSON.Net" Version="1.2.19" />
   </ItemGroup>
 
-  <ItemGroup>
-    
-  </ItemGroup>
 
 
 	<Choose>
