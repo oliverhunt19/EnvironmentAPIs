@@ -2,6 +2,7 @@ using EnvironmentAgencyAPI.Enums;
 using EnvironmentAgencyAPI.Flooding.Requests;
 using EnvironmentAgencyAPI.Flooding.ReturnTypes;
 using FluentAssertions;
+using RoutePlanning.Geometry;
 using UnitsNet;
 
 namespace EnvironmentAgencyAPITests.FunctionalTests

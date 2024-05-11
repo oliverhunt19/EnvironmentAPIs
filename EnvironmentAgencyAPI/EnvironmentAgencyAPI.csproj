@@ -11,6 +11,9 @@
     <PackageReference Include="GeoJSON.Net" Version="1.2.19" />
   </ItemGroup>
 
+  <ItemGroup>
+    
+  </ItemGroup>
 
 
 	<Choose>
@@ -22,8 +25,8 @@
 		</When>
 		<Otherwise>
 			<ItemGroup>
-				<PackageReference Include="RoutePlanning" Version="0.0.1-alpha" />
 				<PackageReference Include="HttpWebAPICore" Version="0.0.3-beta" />
+				<PackageReference Include="RoutePlanning" Version="0.0.1-alpha" />
 			</ItemGroup>
 		</Otherwise>
 	</Choose>
