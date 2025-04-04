@@ -1,18 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;Develop_Debug</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GeoJSON.Net" Version="1.2.19" />
+    <PackageReference Include="CoordinateSharp" Version="3.1.1.1" />
+    <PackageReference Include="GeoJSON.Net" Version="1.4.1" />
   </ItemGroup>
 
   <ItemGroup>
-    
+    <PackageReference Include="GoogleApi" Version="5.8.4" />
+    <PackageReference Include="NetTopologySuite" Version="2.6.0" />
+    <PackageReference Include="UnitsNet" Version="5.74.0" />
   </ItemGroup>
 
 
